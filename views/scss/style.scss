@@ -402,6 +402,19 @@ header {
 					min-height: 550px;
 				}
 			}
+
+			.slider-item2 {
+				position: relative;
+				z-index: 10;
+				height: calc(50vh - 117px);
+				min-height: 550px;	
+
+				.slider-text2{
+					color: $black;
+					height: calc(50vh - 117px);
+					min-height: 550px;
+				}
+			}
 		}
 		.owl-dots {
 			position: absolute;
@@ -430,7 +443,7 @@ header {
 					// border: 2px solid $white!important;
 					// background: rgba(255,255,255,1)!important;
 					span {	
-						background: rgba(255,255,255,1)!important;
+						background: rgba(25500,255,255,1)!important;
 					}	
 				}
 			}
@@ -737,6 +750,7 @@ header {
 		}
 	}
 }
+
 
 
 .media-testimonial {
